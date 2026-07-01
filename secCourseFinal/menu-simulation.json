@@ -1,0 +1,97 @@
+[
+  {
+    "shawarma": {
+      "sh1": {
+        "name": "ქათმის შაურმა",
+        "price": "15₾",
+        "description": "სტანდარტული შაურმა ქათმის ხორცით",
+        "image": "../images/chicken-shawarma.png"
+      },
+
+      "sh2": {
+        "name": "ფრეშ შაურმა",
+        "price": "15₾",
+        "description": "ფრეში ღორის ხორცით საფირმო ლავაშში",
+        "image": "../images/fresh-shawarma.png"
+      },
+
+      "sh3": {
+        "name": "spinach wrap",
+        "price": "15₾",
+        "description": "shawarma with spinach",
+        "image": "../images/spinach-lavash-wrap.png"
+      },
+      "sh4": {
+        "name": "box shawarma",
+        "price": "15₾",
+        "description": "shawarma in a box",
+        "image": "../images/images.png"
+      }
+    }
+  },
+  {
+    "additional": {
+      "sh1": {
+        "name": "კარტოფილი ფრი",
+        "price": "5₾",
+        "description": "მმმმმმმმმმ",
+        "image": "../images/fries.png"
+      },
+
+      "sh2": {
+        "name": "ნაგეთსი",
+        "price": "5₾",
+        "description": "მმმ",
+        "image": "../images/nuggets.png"
+      }
+    }
+  },
+  {
+    "sauce": {
+      "sh1": {
+        "name": "კეტჩუპი",
+        "price": "3₾",
+        "description": "რათ უნდა აღწერა",
+        "image": "../images/ketchup.png"
+      },
+
+      "sh2": {
+        "name": "ყველის სოუსი",
+        "price": "5₾",
+        "description": "\"ყველის\" სოუსი",
+        "image": "../images/cheese.png"
+      },
+
+      "sh3": {
+        "name": "bbq სოუსი",
+        "price": "3₾",
+        "description": "გემრიელი",
+        "image": "../images/bbq.png"
+      }
+    }
+  },
+  {
+    "drinks": {
+      "sh1": {
+        "name": "კოკა-კოლა",
+        "price": "3₾",
+        "description": "გამაგრილებეი სასმელი",
+        "image": "../images/cola.png"
+      },
+
+      "sh2": {
+        "name": "ფანტა",
+        "price": "2₾",
+        "description": "დააგემოვნე ცისარტყელა",
+        "image": "../images/fanta.png"
+      },
+
+      "sh3": {
+        "name": "სპრაიტი",
+        "price": "2₾",
+        "description": "დააგემოვნე ",
+        "image": "../images/sprite.png"
+      }
+    }
+  }
+]

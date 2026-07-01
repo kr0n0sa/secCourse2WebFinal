@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="../styles.css" rel="stylesheet"/>
+</head>
+  <body>
+    <header>
+      <section class="logo">
+        <img
+          src="../images/icon.png"
+          alt=""
+          height="60px"
+          width="60px"
+          class="icon"
+        />
+        <span class="title">Olympian Shawarma</span>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="">მთავარი</a></li>
+          <li><a href="">მენიუ</a></li>
+          <li><a href="">ჩვენ შესახებ</a></li>
+          <li><a href="">კონტაქტი</a></li>
+        </ul>
+      </nav>
+      <button class="burger-menu">
+        <img src="../images/burger.png" alt="menu" class="burger-img" />
+      </button>
+    </header>
+    <div id="cookie-banner" class="cookie-banner" style="display: none;">
+  <p>ეს ვებ-გვერდი იყენებს ქუქიებს (Cookies) მომსახურების გასაუმჯობესებლად. თანახმა ხართ?</p>
+  <div class="cookie-buttons">
+    <button id="accept-cookies" class="cookie-btn accept">კი</button>
+    <button id="deny-cookies" class="cookie-btn deny">არა</button>
+  </div>
+</div>
+
+    <main>
+      <section class="head">
+        <img
+          src="../images/icon.png"
+          alt="background shawarma"
+          height="80px"
+          width="80px"
+          class="icon"
+        />
+        <h1>Olympian Shawarma</h1>
+        <h2>
+          აღმოაჩინე ნამდვილი ოლიმპიური გემო! უგემრიელესი შაურმა, დამზადებული ყოველდღიური ახალი ინგრედიენტებითა და საუკეთესო რეცეპტებით.
+        </h2>
+      </section>
+      <section class="menu" id="menu">
+        <section class="menu-head" id="menu-head">
+          <h2>მენიუ</h2>
+          <h3>
+            აირჩიეთ თქვენი ფავორიტი კერძი ჩვენი მრავალფეროვანი ასორტიმენტიდან: უგემრიელესი შაურმა, საფირმო სოუსები და ცივი სასმელები.
+          </h3>
+        </section>
+        <section class="shawarma scroll reveal" id="shawarma-orders"></section>
+        <section class="additional scroll reveal" id="additional-orders"></section>
+        <section class="sauce scroll reveal" id="sauce-orders"></section>
+        <section class="drinks scroll reveal" id="drinks-orders"></section>
+        <a href="cart.html">კალათა 🛒</a>
+          
+        </section>
+        <!-- dynamically updated info from a db that will be put into here via js -->
+      </section>
+      <section class="about-us reveal">
+        <h2>Olympian Shawarma ს შესახებ</h2>
+        <h3>
+          ჩვენი მიზანია შემოგთავაზოთ უმაღლესი ხარისხის, ყოველთვის ცხელი და გემრიელი შაურმა სწრაფი მომსახურებითა და კომფორტული გარემოთი.
+        </h3>
+
+        <section class="additional-info reveal">საუკეთსო ინგრედიენტები</section>
+        <section class="additional-info reveal">პრემიუმ ხარისხი</section>
+        <section class="additional-info reveal">ოფლი არ ეწუწება</section>
+      </section>
+    
+
+    <section class="small-info reveal">
+      <h2>ეწვიეთ Olympian Shawarma ს</h2>
+      <h3>
+        გვესტუმრეთ ნებისმიერ დროს ან გამოიძახეთ სახლში. ჩვენ მზად ვართ გაგიმასპინძლდეთ საუკეთესო ხარისხის პროდუქტებით 24 საათის განმავლობაში.
+      </h3>
+    </section>
+
+    <section class="contacts reveal">
+      <article class="contacts-inside">
+        <img src="../images/icon.png" alt="მდებარეობის ხატულა" height="60px" width="60px" class="icon" />
+        <h4>მდებარეობა</h4>
+        <p>თბილისი, საქართველო</p>
+      </article>
+  
+  <article class="contacts-inside reveal">
+    <img src="../images/icon.png" alt="ტელეფონის ხატულა" height="60px" width="60px" class="icon" />
+    <h4>ტელეფონი</h4>
+    <p>+995 599 48 18 10</p>
+  </article>
+  
+  <article class="contacts-inside reveal">
+    <img src="../images/icon.png" alt="საათების ხატულა" height="60px" width="60px" class="icon" />
+    <h4>სამუშაო საათები</h4>
+    <p>24/7</p>
+  </article>
+  
+  <article class="contacts-inside reveal">
+    <img src="../images/icon.png" alt="ფოსტის ხატულა" height="60px" width="60px" class="icon" />
+    <h4>ელ-ფოსტა</h4>
+    <p>info@Olympian.ge</p>
+  </article>
+      
+
+      <section class="feedback reveal ">
+        <section class="name-surname">
+          <input type="text" placeholder="სახელი" />
+          <input type="text" placeholder="გვარი" />
+        </section>
+        <input type="email" placeholder="email" />
+        <input type="tel" placeholder="ტელეფონის ნომერი" />
+        <textarea  placeholder="თქვენი წერილი" class="message"></textarea>
+        <button id="submit-feedback" class="butoni">გაგზავნა</button>
+      </section>
+
+    </section>
+</main>
+    <footer>
+      <section class="contacts">
+        <p>მისამართი: თბილისი,მარყუჟიანის ქუჩან N1-</p>
+        <p>+995 599 48 18 10</p>
+        <p>info@Olympian.ge</p>
+      </section>
+    </footer>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
